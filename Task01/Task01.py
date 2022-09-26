@@ -6,7 +6,7 @@
 # - 1 -> нет
 
 day = int(input("Введите число от 1 до 7ми: "))
-if 1 < day < 7:
+if 0 < day < 7:
     if day == 6 or day == 7:
         print("Выходной!!!")
     else:
